@@ -1,2 +1,21 @@
 # KMM
-Monitor machine's memory and write out logs using Kafka
+Monitor machine's memory and write out logs using Kafka.
+
+To run KMM you will need to have Kafka and Zookeeper installed - once installed
+you can start and stop them using the below commands.
+
+to start Zookeeper use the following command
+
+sh zookeeper-server-start zookeeper.properties
+
+To start Kafka use the following command
+
+kafka-server-start server.properties
+
+To stop Kafka use the following command
+
+Kafka-server-stop
+
+To stop Zookeeper use the following command
+
+Zookeeper-server-stop
